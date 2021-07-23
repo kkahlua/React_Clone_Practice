@@ -1,3 +1,6 @@
+## Quara Clone Practice
+본 프로젝트는 Quara 홈페이지를 Clone 연습한 프로젝트입니다. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts

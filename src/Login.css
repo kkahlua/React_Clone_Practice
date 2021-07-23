@@ -1,0 +1,208 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2019/07/24/02/06/masterpiece-4359010__340.jpg);
+}
+
+.login_Container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+
+.login_Logo {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.login_Desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login_Desc > h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.login_Desc > p {
+    color: yellowgreen;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login_Auth {
+    display: flex;
+    margin-top: 50px;
+}
+
+.login_AuthOptions {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.login_AuthOption {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login_AuthOption:hover {
+    background-color: rgb(226,226,226);
+}
+
+.login_AuthOption > img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.login_AuthOption > p {
+    margin-left: 11px;
+}
+
+.login_AuthDesc {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+
+.login_AuthDesc > p {
+    font-size: small;
+    color: yellowgreen;
+}
+
+.login_EmailPass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 0.5;
+    margin-left: 20px;
+}
+
+.login_Label > h4 {
+    padding: 5px;
+}
+
+.login_InputFields {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.login_InputField {
+    padding: 5px;
+}
+
+.login_InputField > input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(236,236,236);
+}
+
+.login_ForgetButt {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_ForgetButt > small {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.login_ForgetButt > small:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.login_ForgetButt > button {
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login_EmailPass > button {
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login_Lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.login_Lang > p {
+    color: yellowgreen;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.login_Lang > p:hover{
+    color: yellowgreen;
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+.login_Lang > MuiSvgIcon-root {
+    color: yellowgreen;
+}
+
+.login_Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.login_Footer > p {
+    color: yellowgreen;
+    cursor: pointer;
+    font-size: small;
+}
+
+.login_Footer > p:hover {
+    text-decoration: underline;
+}
